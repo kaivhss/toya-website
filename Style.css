@@ -1,0 +1,309 @@
+html {
+    width: 60%;
+    margin: auto;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    height: 100vh;
+    background-image: url("images/Water.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flowers img {
+    width: 34vw;
+    height: 25vw;
+}
+
+.dragon img {
+    width: 50vw;
+    height: 20vw;
+}
+
+.game img {
+    width: 80vw;
+    height: 20vw;
+}
+
+.toya img {
+    height: 26.5vw;
+    position: cover;
+}
+
+.Sad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Blue img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Wowzers img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Bird img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Camp img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Flower img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Hair img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Microphone img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Model img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Piano img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Tech img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Sanrio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Wed img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 2.5vw;
+    width: 60.1vw;
+    overflow: hidden;
+    background-color: #333333;
+    /*change the colour later dude*/
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #111111;
+}
+
+li {
+    color: green;
+}
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background-color: #e97676;
+    position: absolute;
+    margin-top: 15%;
+    float: left;
+    transform: rotate(-65deg);
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: #e97676;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0;
+}
+
+.heart::after {
+    left: 50px;
+    top: 0;
+}
+
+.title {
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 61.3vw;
+    height: 150px;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #4da0e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #000;
+}
+
+.sidebar {
+
+    min-width: 250px;
+    background-color: #eee;
+    padding: 10px;
+    float: right;
+}
+
+.sidebar table {
+    border: 4px solid black;
+    border-collapse: collapse;
+
+    height: 10vw;
+}
+
+.sidebar th {
+    background-color: darkgray;
+    height: 5vh;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+.sidebar td {
+    border: 2px solid black;
+    padding: 5px;
+    height: 5vh;
+    background-color: white;
+    text-align: center;
+}
+
+.main {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+td img {
+    border-radius: 8px;
+}
+
+table {
+
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Table borders */
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+img {
+    max-width: 900px;
+    /* Limit image size */
+    height: auto;
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+/* Cell styling */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive table for small screens 
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    img {
+        max-width: 60px;
+    }
+} */
